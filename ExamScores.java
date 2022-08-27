@@ -6,28 +6,4 @@ result. Ranges for rates of appreciation are listed below
 • Pass: greater than or equal 50 and less than 65
 • Fail: less than 50
 
-
-import java.util.Scanner;
-
-public class Task17 {
-    public static void main (String[] args){
-        Scanner in = new Scanner(System.in);
-        double grade; // variable to store the grade
-        
-       System.out.print("Enter grade : ");
-       grade = in.nextDouble(); // take the grade from the scanner
-       
-       // your conditions
-       
-        
     
-    
-    }
-    
-    
-    
-    
-    
-    
-    
-}

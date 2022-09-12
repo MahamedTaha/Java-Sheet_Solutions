@@ -1,0 +1,31 @@
+Suppose temperature readings, and then convert Fahrenheit into Celcius (5*(temp - 32) /
+9); and vice versa (9*temp/5 + 32)
+
+
+
+
+import java.util.Scanner;
+
+public class java {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter temperature");
+
+        double temp = in.nextDouble();
+
+        System.out.println("choose \n 1- Convert Fahrenheit to Celsius \n 2- Convert Celsius to Fahrenheit  ");
+
+        int converters = in.nextInt();
+
+        if (converters == 1) {
+            System.out.println("the temp is :" + 5 * (temp - 32) / 9);
+        } else if (converters == 2) {
+            System.out.println("the temp is :" + 9 * temp / 5 + 32);
+        }
+
+    }
+
+}

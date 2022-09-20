@@ -1,0 +1,35 @@
+Write a program that asks the user to enter positive numbers at keyboard which are added together.
+to stop the addition the user enters a negative number
+
+
+
+
+
+import java.util.Scanner;
+
+public class java {
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+
+        double value;
+        double sum = 0.0;
+        boolean positivevalue = true;
+
+        while (positivevalue == true) {
+
+            value = in.nextDouble();
+
+            if (value < 0) {
+                positivevalue = false;
+            } else {
+                sum += value;
+            }
+
+        }
+
+        System.out.println("the sum of positivevalue is : " + sum);
+    }
+
+}
